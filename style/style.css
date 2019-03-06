@@ -11,43 +11,69 @@ body {
 .title {
     color: rgb(65,65,65);
     font-family: Roboto-Medium;
+    display: inline-block;
     
     margin-left: 1%;
 }
 .title-container {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    background-color: rgba(235,235,235, 0.75);
-    width: 95%;
+    background-color: rgba(235,235,235, 1);
+    width: 100%;
     height: auto;
     overflow-y: auto;
+}
+
+.linkbar {
+    background-color: rgba(65,65,65, 1);
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+.linkbar-link {
+    color: rgb(235,235,235);
+    font-family: Roboto-Medium;
+    display: inline-block;
+    text-decoration: none;
     
-    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+.linkbar-link:hover {
+    color: rgb(205,205,205);
 }
 
 .content {
     margin-left: 2.5%;
     margin-right: 2.5%;
-    background-color: rgba(65,65,65, 0.75);
+    background-color: rgba(65,65,65, 1);
     width: 95%;
     height: auto;
     overflow-y: auto;
     
     margin-top: 2.5%;
 }
-
 .content-title {
     color: rgb(235,235,235);
     font-family: Roboto-Regular;
     
     margin-left: 1%;
 }
-
 .content-text {
     color: rgb(235,235,235);
     font-family: Roboto-Regular;
     
     margin-left: 1%;
+}
+
+.flex {
+    flex: initial;
+    background-color: rgba(235,235,235, 0.75);
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    
+    margin-top: 2.5%;
+    
 }
 
 /*fonts*/
