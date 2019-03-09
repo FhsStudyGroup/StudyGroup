@@ -30,7 +30,7 @@ body {
 }
 .linkbar-link {
     color: rgb(235,235,235);
-    font-family: Roboto-Medium;
+    font-family: Roboto-Light;
     display: inline-block;
     text-decoration: none;
     
@@ -60,7 +60,31 @@ body {
 }
 .content-text {
     color: rgb(235,235,235);
+    font-family: Roboto-Light;
+    
+    margin-left: 1%;
+}
+
+.subcontent {
+    background-color: rgba(235,235,235, 1);
+    width: 98%;
+    height: auto;
+    overflow-y: auto;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.subcontent-title {
+    color: rgb(65,65,65);
     font-family: Roboto-Regular;
+    
+    margin-left: 1%;
+}
+.subcontent-text {
+    color: rgb(65,65,65);
+    font-family: Roboto-Light;
     
     margin-left: 1%;
 }
